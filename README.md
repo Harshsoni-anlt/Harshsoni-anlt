@@ -2,7 +2,7 @@
 
 **Data Scientist | Building open, low-cost Agentic AI systems**
 
-I take enterprise-grade agentic AI reference architectures (NVIDIA AI Blueprints and others) and rebuild them to run on free, open-source infrastructure — no GPU budget required. Every project solves a real business problem, is fully documented, and ships with honest benchmarks.
+I design and build production-grade agentic AI systems that run entirely on free, open-source infrastructure — no GPU budget required. Every project solves a real business problem, is fully documented, and ships with honest benchmarks.
 
 📍 Bangalore, India
 
@@ -15,7 +15,7 @@ I take enterprise-grade agentic AI reference architectures (NVIDIA AI Blueprints
 
 ## 🧰 Toolbox
 
-`Python` `LangGraph` `CrewAI` `LLMs (Groq/Gemini/NVIDIA)` `Ollama` `RAG` `NeMo Guardrails` `ChromaDB/Qdrant` `Prophet` `scikit-learn` `TensorFlow/Keras` `SQL` `Docker` `GitHub Actions` `Streamlit`
+`Python` `LangGraph` `CrewAI` `LLMs (Groq/Gemini)` `Ollama` `RAG` `NeMo Guardrails` `ChromaDB/Qdrant` `Prophet` `scikit-learn` `TensorFlow/Keras` `SQL` `Docker` `GitHub Actions` `Streamlit`
 
 ## 📊 Earlier data science work
 
@@ -26,6 +26,3 @@ I take enterprise-grade agentic AI reference architectures (NVIDIA AI Blueprints
 ## 📫 Connect
 
 [LinkedIn](https://www.linkedin.com/in/harsh--soni/) · harshsoni.skha@gmail.com
-
----
-*All blueprint adaptations are transparently attributed under Apache 2.0 — the README of each repo documents exactly what changed vs the original and why.*
