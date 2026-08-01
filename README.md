@@ -14,12 +14,24 @@ By day I design and deliver enterprise AI solutions for global clients. Here, I 
 - **Forecasting & analytics** — 4 years building GenAI + ML demand forecasting for global supply chains: SKU-level ensembles, time-series models, and LLM-based explainability layers
 - **MLOps** — MLflow, CI/CD, automated retraining, and model governance at production scale
 
-## 🚀 Current focus: one agentic system every 2 weeks
+## 🚀 Current focus: agentic systems on free infrastructure
 
-| Project | Problem it solves | Stack | Status |
-|---|---|---|---|
-| Warehouse Ops Agent | Multi-agent warehouse operations: inventory Q&A, demand forecasting, equipment alerts | LangGraph · Groq · Ollama · ChromaDB · NeMo Guardrails | 🔨 In progress |
-| _Next: AI research agent, video analytics, fraud detection…_ | | | 📋 Queued |
+A series of production-shaped agent systems, each adding a modality the last one
+didn't have — text, video, voice, image — over the same planner, tool-routing and
+guardrail layer. All open source, all runnable on a laptop for ₹0.
+
+| # | Project | What it does | Stack | Status |
+|---|---|---|---|---|
+| 1 | **[WarehouseOps AI](https://github.com/Harshsoni-anlt/warehouseops-ai)** | Multi-agent warehouse ops — plain-language inventory, equipment, safety and forecasting questions answered from live SQL, plus invoice extraction. Bring your own CSV and it answers about your warehouse. | LangGraph · MCP · Groq/Ollama · ChromaDB · SQLite · scikit-learn | ✅ **Shipped** |
+| 2 | **[Video Incident Intelligence](https://github.com/Harshsoni-anlt/video-incident-intel)** | Ask hours of camera footage a question in plain English. You write the checks — safety, stock counts, product types — and every answer cites the frame it came from. Upload your own video and try it. | Gemini vision · OpenCV motion filter · FastAPI · React | ✅ **Shipped** |
+| 3 | Voice operations agent | Hands-free assistant for people wearing gloves — local speech-to-text, free TTS, Hinglish support | Whisper · Edge-TTS · same agent layer | 🔨 Next |
+| 4 | Catalogue enrichment from a photo | Product photo in, full marketplace listing out — title, description, attributes, in English and Hindi | Vision LLM · structured output | 📋 Queued |
+| 5 | Document intelligence + review loop | Extract → validate → route → human review. The reviewer queue that document-AI demos always skip | OCR · LLM extraction · confidence routing | 📋 Queued |
+
+**Why free infrastructure?** Most enterprise AI reference architectures assume a
+GPU cluster, a managed vector database and a paid inference endpoint — which
+means nobody can actually run them. These are rebuilt so anyone can clone and
+run them in two commands. That constraint is the point.
 
 ## 🏆 Recognition
 
