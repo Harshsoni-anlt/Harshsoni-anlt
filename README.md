@@ -1,60 +1,80 @@
 # Hi, I'm Harsh Soni 👋
 
-**Forward Deployed Engineer @ Kyndryl | Data Scientist | Agentic AI, Generative AI & LLMs**
+**Forward Deployed Engineer @ Kyndryl · Data Scientist · Agentic AI, GenAI & LLMs**
 
-By day I design and deliver enterprise AI solutions for global clients. Here, I build production-grade agentic AI systems that run entirely on free, open-source infrastructure — no GPU budget required. Every project solves a real business problem, is fully documented, and ships with honest benchmarks.
+By day I design and deliver enterprise AI for global clients. Here I build the
+same kind of systems on free infrastructure, so anyone can clone one and run it
+in two commands — no GPU, no managed services, no monthly bill.
 
 📍 Bengaluru, India
 
-## 💼 What I do
+---
 
-- **Enterprise AI delivery** — architect and ship LLM, RAG, and agentic solutions from proof-of-concept to production, including on-prem and cloud platforms for regulated industries
-- **Document intelligence** — multilingual pipelines combining OCR, translation models, and structured extraction
-- **GPU-efficient inference** — model serving with vLLM, quantization, and distributed processing
-- **Forecasting & analytics** — 4 years building GenAI + ML demand forecasting for global supply chains: SKU-level ensembles, time-series models, and LLM-based explainability layers
-- **MLOps** — MLflow, CI/CD, automated retraining, and model governance at production scale
+## 🚀 What I'm building
 
-## 🚀 Current focus: agentic systems on free infrastructure
-
-A series of production-shaped agent systems, each adding a modality the last one
-didn't have — text, video, voice, image — over the same planner, tool-routing and
-guardrail layer. All open source, all runnable on a laptop for ₹0.
+A series of production-shaped AI systems, each taking on an input type the last
+one couldn't handle. **Each repo stands completely alone** — no shared runtime,
+no shared database, nothing to install first. What carries across is the
+approach, not the code.
 
 | # | Project | What it does | Stack | Status |
 |---|---|---|---|---|
-| 1 | **[WarehouseOps AI](https://github.com/Harshsoni-anlt/warehouseops-ai)** | Multi-agent warehouse ops — plain-language inventory, equipment, safety and forecasting questions answered from live SQL, plus invoice extraction. Bring your own CSV and it answers about your warehouse. | LangGraph · MCP · Groq/Ollama · ChromaDB · SQLite · scikit-learn | ✅ **Shipped** |
-| 2 | **[Video Incident Intelligence](https://github.com/Harshsoni-anlt/video-incident-intel)** | Ask hours of camera footage a question in plain English. You write the checks — safety, stock counts, product types — and every answer cites the frame it came from. A million frames become ~34 API calls. Upload your own video and try it. | Gemini vision · OpenCV motion filter · FastAPI · React · SQLite | ✅ **Shipped** |
-| 3 | Voice operations agent | Hands-free assistant for people wearing gloves — local speech-to-text, free TTS, Hinglish support | Whisper · Edge-TTS · same agent layer | 🔨 Next |
-| 4 | Catalogue enrichment from a photo | Product photo in, full marketplace listing out — title, description, attributes, in English and Hindi | Vision LLM · structured output | 📋 Queued |
-| 5 | Document intelligence + review loop | Extract → validate → route → human review. The reviewer queue that document-AI demos always skip | OCR · LLM extraction · confidence routing | 📋 Queued |
+| 1 | **[WarehouseOps AI](https://github.com/Harshsoni-anlt/warehouseops-ai)** | Multi-agent warehouse operations — inventory, equipment, safety and forecasting questions answered from live SQL, plus invoice extraction. Bring your own CSV and it answers about *your* warehouse. | LangGraph · MCP · Groq/Ollama · ChromaDB · SQLite | ✅ Shipped |
+| 2 | **[Video Incident Intelligence](https://github.com/Harshsoni-anlt/video-incident-intel)** | Ask hours of camera footage a question in plain English. **You write the checks** — safety, stock counts, product types — and every answer cites the frame that proves it. A million frames become a few dozen API calls. | Gemini vision · OpenCV · FastAPI · React · SQLite | ✅ Shipped |
+| 3 | **Voice operations agent** | Hands-free floor assistant for people wearing gloves — local speech-to-text, free TTS, Hinglish. | Whisper · Edge-TTS · FastAPI | 🔨 **Next** |
+| 4 | Catalogue enrichment from a photo | Product photo in, full marketplace listing out — title, description, attributes, English and Hindi. | Vision LLM · structured output | 📋 Queued |
+| 5 | Document intelligence + review loop | Extract → validate → route → human review. The reviewer queue that document-AI demos always skip. | OCR · LLM extraction · confidence routing | 📋 Queued |
 
-**Why free infrastructure?** Most enterprise AI reference architectures assume a
-GPU cluster, a managed vector database and a paid inference endpoint — which
-means nobody can actually run them. These are rebuilt so anyone can clone and
-run them in two commands. That constraint is the point.
+### Three rules I hold myself to
+
+- **Answers cite their evidence.** The model writes the sentence; the source is
+  real and you can click it. If it can't show you, it doesn't claim.
+- **The limitations are in the README.** Every repo says plainly what it gets
+  wrong and where it shouldn't be trusted. That costs nothing and it's the part
+  people actually respect.
+- **Bring your own data.** Every project takes your file, not just my demo.
+  A system that only works on the sample isn't a system.
+
+**Why free infrastructure?** Most enterprise AI architectures assume a GPU
+cluster, a managed vector database and a paid inference endpoint — which means
+almost nobody can actually run them. Rebuilding under a hard ₹0 constraint
+forces the real engineering decisions: what to send, what to skip, what you
+genuinely need a database for. That constraint is the point.
+
+---
+
+## 💼 What I do professionally
+
+- **Enterprise AI delivery** — architect and ship LLM, RAG and agentic solutions from proof-of-concept to production, on-prem and cloud, including regulated industries
+- **Document intelligence** — multilingual pipelines combining OCR, translation and structured extraction
+- **GPU-efficient inference** — model serving with vLLM, quantization, distributed processing
+- **Forecasting & analytics** — 4 years of GenAI + ML demand forecasting for global supply chains: SKU-level ensembles, time-series models, LLM explainability layers
+- **MLOps** — MLflow, CI/CD, automated retraining, model governance at production scale
+
+## 🧭 Background
+
+- **Kyndryl** — Lead II, Forward Deployed Engineer (2026–present): enterprise AI & GenAI for global clients; technical delivery lead and mentor
+- **UPL** — Data Scientist (2022–2026): end-to-end ownership of GenAI/ML forecasting for supply chain decisions
+- **HPCL** — Data Science Intern: NLP and semantic search over large-scale survey data, extended into my Master's dissertation
+- **Education** — MA/MSc Analytics, Tata Institute of Social Sciences (TISS), Mumbai
 
 ## 🏆 Recognition
 
 - **UPL OpenAg Award** — for leading the AI-based demand forecasting project
 - **Databricks GenAI Innovation Award 2025** — part of the UPL team recognized for enterprise LLM adoption
-- **DeepLearning.AI TensorFlow Developer Specialization** (Coursera)
-
-## 🧭 Background
-
-- **Kyndryl** — Lead II, Forward Deployed Engineer (2026–present): enterprise AI & GenAI solutions for global clients; technical delivery lead and mentor
-- **UPL** — Data Scientist (2022–2026): end-to-end ownership of GenAI/ML forecasting systems for supply chain decision-making
-- **HPCL** — Data Science Intern: NLP + semantic search over large-scale survey data, extended into my Master's dissertation
-- **Education** — MA/MSc in Analytics, Tata Institute of Social Sciences (TISS), Mumbai
+- **DeepLearning.AI TensorFlow Developer Specialization**
 
 ## 🧰 Toolbox
 
-`Python` `LangGraph` `LangChain` `CrewAI` `Azure OpenAI` `LLMs (Groq/Gemini)` `Ollama` `vLLM` `RAG` `NeMo Guardrails` `ChromaDB/Qdrant` `MLflow` `Databricks` `Prophet` `scikit-learn` `TensorFlow/Keras` `SQL` `Docker` `GitHub Actions` `Streamlit`
+`Python` `LangGraph` `LangChain` `CrewAI` `FastAPI` `React` `Azure OpenAI` `Gemini` `Groq` `Ollama` `vLLM` `RAG` `NeMo Guardrails` `ChromaDB/Qdrant` `OpenCV` `MLflow` `Databricks` `Prophet` `scikit-learn` `TensorFlow` `SQL` `Docker` `GitHub Actions`
 
 ## 📊 Earlier data science work
 
-- **Twitter Sentiment Analysis** — NLP classification pipeline
-- **LSTM Stock Prediction** — time-series deep learning
-- **Customer Segmentation (K-Means)** — unsupervised clustering for marketing
+[Twitter Sentiment Analysis](https://github.com/Harshsoni-anlt/twitter-sentiment-analysis) ·
+[LSTM Stock Prediction](https://github.com/Harshsoni-anlt/LSTM-Stock-Prediction) ·
+[Customer Segmentation](https://github.com/Harshsoni-anlt/customer-segmentation-kmeans) ·
+[Big Mart Sales](https://github.com/Harshsoni-anlt/Big-Mart-Sales-Prediction) ·
+[RAG over 10-K filings](https://github.com/Harshsoni-anlt/rag_project)
 
 ## 📫 Connect
 
