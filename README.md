@@ -21,8 +21,8 @@ approach, not the code.
 |---|---|---|---|---|
 | 1 | **[WarehouseOps AI](https://github.com/Harshsoni-anlt/warehouseops-ai)** | Multi-agent warehouse operations — inventory, equipment, safety and forecasting questions answered from live SQL, plus invoice extraction. Bring your own CSV and it answers about *your* warehouse. | LangGraph · MCP · Groq/Ollama · ChromaDB · SQLite | ✅ Shipped |
 | 2 | **[Video Incident Intelligence](https://github.com/Harshsoni-anlt/video-incident-intel)** | Ask hours of camera footage a question in plain English. **You write the checks** — safety, stock counts, product types — and every answer cites the frame that proves it. A million frames become a few dozen API calls. | Gemini vision · OpenCV · FastAPI · React · SQLite | ✅ Shipped |
-| 3 | **Voice operations agent** | Hands-free floor assistant for people wearing gloves — local speech-to-text, free TTS, Hinglish. | Whisper · Edge-TTS · FastAPI | 🔨 **Next** |
-| 4 | Catalogue enrichment from a photo | Product photo in, full marketplace listing out — title, description, attributes, English and Hindi. | Vision LLM · structured output | 📋 Queued |
+| 3 | **[FieldNote](https://github.com/Harshsoni-anlt/fieldnote-voice)** | Speak a field note, get a structured record. **You define the fields**; every value cites the audio it was heard in, so a number can be checked in two seconds. Hindi and Hinglish, with site vocabulary so "pallet" doesn't come back as "toilet". | Gemini audio · FastAPI · React · numpy · SQLite | ✅ Shipped |
+| 4 | Catalogue enrichment from a photo | Product photo in, full marketplace listing out — title, description, attributes, English and Hindi. | Vision LLM · structured output | 🔨 **Next** |
 | 5 | Document intelligence + review loop | Extract → validate → route → human review. The reviewer queue that document-AI demos always skip. | OCR · LLM extraction · confidence routing | 📋 Queued |
 
 ### Three rules I hold myself to
